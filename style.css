@@ -50,22 +50,22 @@ p {
 }
 .tekstRechts{
   float: right;
-  width: 480px;
+  width: 300px;
 }
 .plaatje{
-  width: 320px;
+  width: 200px;
   margin:15px;
   padding-right:15px;
 }
 .kolomLinks {
   float:left;
   width:250px;
-  padding-right:15px; 
+  padding-right:12px; 
   /* afstand tussen plaatje en rechterkolom */
 }
 .kolomRechts {
   float:right;
-  width: 1250px;
+  width: 150px;
 }
 .kolomStop {
   clear:both;                   /* stop met floaten */
