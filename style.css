@@ -23,7 +23,11 @@ body * {                          /* geldt voor alles in body */
 .eerste{
   background-color:#5f917d;
   padding:20px;
-
+  border:solid 2px #393c3c;
+}
+.tweede{
+  background-color:#5f917d;
+  padding:20px;
   border:solid 2px #393c3c;
 }
 .page {
@@ -57,10 +61,17 @@ p {
   float: right;
   width: 300px;
 }
-.plaatje{
+.plaatje3{
   width: 200px;
   margin:15px;
   padding-right:15px;
+}
+.plaatje1 {
+  width: 250px
+  
+}
+.plaatje2{
+  width:250px;
 }
 .kolomLinks {
   float:left;
