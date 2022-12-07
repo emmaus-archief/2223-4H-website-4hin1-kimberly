@@ -20,7 +20,12 @@ body * {                          /* geldt voor alles in body */
 }
 
 /* Indeling voor alle pagina's */
+.eerste{
+  background-color:#5f917d;
+  padding:20px;
 
+  border:solid 2px #393c3c;
+}
 .page {
   width: 700px;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;              /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
