@@ -30,6 +30,18 @@ body * {                          /* geldt voor alles in body */
   padding:20px;
   border:solid 2px #393c3c;
 }
+.vierde{
+  background-color: #5f917d;
+  padding: 20px;
+  border: solid 2px #393c3c;
+
+  .vijfde{
+    background-color: #5f917d;
+    padding:20px;
+    border: solid 2px #393c3c;
+  }
+
+}
 .page {
   width: 700px;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;              /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
@@ -68,9 +80,14 @@ p {
 }
 .plaatje1 {
   width: 250px
-  
 }
 .plaatje2{
+  width:250px;
+}
+.plaatje4{
+  width: 250px;
+}
+.plaatje5{
   width:250px;
 }
 .kolomLinks {
