@@ -35,10 +35,10 @@ body * {                          /* geldt voor alles in body */
   padding: 20px;
   border: solid 2px #393c3c;
 
-  .vijfde{
+.vijfde{
     background-color: #5f917d;
     padding:20px;
-    border: solid 2px #393c3c;
+    border:solid 2px #393c3c;
   }
 
 }
@@ -88,7 +88,9 @@ p {
   width: 250px;
 }
 .plaatje5{
-  width:250px;
+  width: 80px;
+
+
 }
 .kolomLinks {
   float:left;
