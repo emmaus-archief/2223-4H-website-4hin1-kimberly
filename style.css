@@ -34,14 +34,18 @@ body * {                          /* geldt voor alles in body */
   background-color: #5f917d;
   padding: 20px;
   border: solid 2px #393c3c;
-
-.vijfde{
-    background-color: #5f917d;
-    padding:20px;
-    border:solid 2px #393c3c;
   }
-
+.vijfde{
+  background-color: #5f917d;
+  padding: 20px;
+  border: solid 2px;
 }
+.zesde{
+  background-color: #5f917d;
+  padding: 20px;
+  border: solid 2px;
+}
+
 .page {
   width: 700px;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;              /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
@@ -63,6 +67,10 @@ p {
   margin: 10px 0px;
   text-align: justify;            /* tekst links en rechts uitvullen */
 }
+p5 {
+  margin:10px 0px;
+  text-align: justify;
+}
 
 /* Indeling voor hoofd pagina */
 .tekstLinks{
@@ -74,9 +82,10 @@ p {
   width: 300px;
 }
 .plaatje3{
-  width: 200px;
-  margin:15px;
-  padding-right:15px;
+  width: 250px;
+  position: center;
+
+
 }
 .plaatje1 {
   width: 250px
@@ -88,9 +97,10 @@ p {
   width: 250px;
 }
 .plaatje5{
-  width: 80px;
-
-
+  width:150px;
+}
+.plaatje6{
+  width:150px;
 }
 .kolomLinks {
   float:left;
