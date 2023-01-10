@@ -45,6 +45,11 @@ body * {                          /* geldt voor alles in body */
   padding: 20px;
   border: solid 2px;
 }
+.zevende{
+  background-color:#5f917d;
+  padding:20px;
+  border: solid 2px;
+}
 
 .page {
   width: 700px;                   /* vaste breedte van 700 pixels */
@@ -100,6 +105,9 @@ p5 {
   width:150px;
 }
 .plaatje6{
+  width:150px;
+}
+.plaatje7{
   width:150px;
 }
 .kolomLinks {
