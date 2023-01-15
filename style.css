@@ -2,14 +2,15 @@
 
 * {                                          /* geldt voor alles */
     /* border: 1px dotted black;         */  /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien, letop dat dit de layout soms kan wijzigen */
-    /* background-color: rgba(0,0,0,5%); */  /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
+    /* background-color: rgba(0,0,0,5%); /*   /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
 }
 
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-color: #5f917d;    /* achtergrondkleur donkergroen */
+  background-color: #5f917d; 
+   /* achtergrondkleur donkergroen */
   color: #051511;               /* tekstkleur zwart */
 }  
 
@@ -18,6 +19,7 @@ body * {                          /* geldt voor alles in body */
   box-sizing: border-box;         /* zorg dat border meetelt bij de width en height van boxen */
   margin: 0px;                    /* standaard marge 0 */
 }
+
 
 /* Indeling voor alle pagina's */
 .eerste{
@@ -91,22 +93,32 @@ p5 {
   width: 300px;
 }
 #indexpagina{
-  background-img:url("https://images.app.goo.gl/2GXyWLLReVyqym3z6");
+  background-image: url("the maze runner.jpeg");
   background-repeat:no-repeat;
   background-size:cover;
+  background-position: center;
+  height:100%;
 }
  
 
 
+
+.plaatje1{
+  width:250px;
 }
-.plaatje1 {
-  width: 250px
-}
+
 .plaatje2{
   width:250px;
+  float:left;
 }
 .plaatje4{
   width: 250px;
+  float:left;
+}
+.plaatje4c{
+  max-width:250px;
+  float:left;
+  
 }
 .plaatje5{
   width:150px;
